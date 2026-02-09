@@ -1,0 +1,28 @@
+====================================================================================================
+BIRHAN ENERGIES: BRENT OIL PRICE CHANGE POINT ANALYSIS
+Task 2: Bayesian Change Point Modeling and Insight Generation
+Repository: https://github.com/alsenlegesse-bit/10Academy_Brent_Oil_Week11
+====================================================================================================
+
+--------------------------------------------------
+[1] LOADING AND PREPARING DATA
+--------------------------------------------------
+Traceback (most recent call last):
+  File "complete_task2.py", line 587, in main
+    df = load_brent_data()
+  File "complete_task2.py", line 61, in load_brent_data
+    print("   \u26a0 No data file found. Creating sample data for analysis...")
+  File "C:\Users\Als\AppData\Local\Programs\Python\Python38\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u26a0' in position 3: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "complete_task2.py", line 631, in <module>
+    main()
+  File "complete_task2.py", line 626, in main
+    print(f"\n\u274c ERROR: {e}")
+  File "C:\Users\Als\AppData\Local\Programs\Python\Python38\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
